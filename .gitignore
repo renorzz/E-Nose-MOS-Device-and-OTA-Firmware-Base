@@ -1,0 +1,57 @@
+# OS & Editor
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vs/
+**/.vs/
+
+# Rust & Cargo
+target/
+**/target/
+**/*.rs.bk
+Cargo.lock.backup
+
+# ESP-IDF & embuild toolchains
+.embuild/
+**/.embuild/
+
+# Python & Virtual Environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+**/.venv/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+**/.env
+*.local
+
+# OTA System Dynamic Directories & Databases
+CSV_PROFILING-main/firmware-projects/*
+!CSV_PROFILING-main/firmware-projects/.gitkeep
+CSV_PROFILING-main/firmware-builds/*
+!CSV_PROFILING-main/firmware-builds/.gitkeep
+CSV_PROFILING-main/data/*
+!CSV_PROFILING-main/data/.gitkeep
+
+# CSV Profiling Dynamic Uploads & Reports
+CSV_PROFILING-main/python/uploads/*
+!CSV_PROFILING-main/python/uploads/Placeholder.txt
+CSV_PROFILING-main/python/reports/*
+!CSV_PROFILING-main/python/reports/Placeholder.txt
+
+# LaTeX Intermediate Files (keep .tex and .pdf)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.lof
+*.lot
